@@ -1,0 +1,18 @@
+# Ignore SSH keys and sensitive files
+.ssh/
+*.pem
+*.key
+id_rsa*
+# Bytecode and cache
+__pycache__/
+*.pyc
+# Environment and config
+.env
+.env.*
+# Jupyter and notebook checkpoints
+.ipynb_checkpoints/
+# OS files
+.DS_Store
+Thumbs.db
+# VSCode settings
+.vscode/
