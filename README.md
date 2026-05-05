@@ -77,7 +77,7 @@ This project demonstrates a scalable, automated data pipeline using Apache Icebe
 
 ## Cloud Deployment
 - For AWS/GCP/Azure, update the Spark and Iceberg configs in the scripts to use the appropriate metastore and storage.
-- (Bonus) Use the provided Airflow DAG and Terraform template for orchestration and IaC.
+- Use the provided Airflow DAG and Terraform template for orchestration and IaC.
 
 
 ## Sample Data
@@ -86,5 +86,5 @@ This project demonstrates a scalable, automated data pipeline using Apache Icebe
 ---
 
 
-## Bonus: Orchestration & IaC
+## Orchestration & IaC
 - See `infra/airflow_dag.py` and `infra/main.tf` for Airflow and Terraform examples.
